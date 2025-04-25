@@ -8,9 +8,10 @@
 4. [Preparación de Datos](#preparación-de-datos)  
 5. [Modelado y Evaluación](#modelado-y-evaluación)  
 6. [Scoring y Métricas](#scoring-y-métricas)  
-7. [Resultados Finales](#resultados-finales)  
-8. [Requisitos](#requisitos)  
-9. [Documentación Detallada](#documentación-detallada)  
+7. [Resultados Finales](#resultados-finales)
+8. [Cómo ejecutar](#cómo-ejecutar)
+9. [Requisitos](#requisitos)
+10. [Documentación Detallada](#documentación-detallada)  
 
 ---
 
@@ -97,7 +98,16 @@ El script `src/scoring.py`:
 <img src="outputs/figures/matrizfinal.png" alt="Matriz de Confusión CatBoost afinado" width="600"/>
 
 ---
-## 8. Requisitos
+
+## 8. Cómo ejecutar
+git clone <(https://github.com/joacomartineeez/desafiohdi_joaquinmartinez.git>
+cd desafio_HDI
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python main.py
+
+---
+## 9. Requisitos
 - pandas
 - numpy
 - scikit-learn
@@ -108,7 +118,7 @@ El script `src/scoring.py`:
 
 ---
 
-## 9. Documentación Detallada
+## 10. Documentación Detallada
 
 Para el proceso completo paso a paso, análisis de datos y resultados intermedios, consulta:
 [Documentación detallada](docs/documentacion_modelo.md)
