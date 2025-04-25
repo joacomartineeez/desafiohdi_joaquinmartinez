@@ -100,11 +100,13 @@ El script `src/scoring.py`:
 ---
 
 ## 8. Cómo ejecutar
+```bash
 git clone <(https://github.com/joacomartineeez/desafiohdi_joaquinmartinez.git>
 cd desafio_HDI
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python main.py
+```
 
 ---
 ## 9. Requisitos
