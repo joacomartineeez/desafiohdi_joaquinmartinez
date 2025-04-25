@@ -101,13 +101,13 @@ El script `src/scoring.py`:
 
 ## 8. Cómo ejecutar
 ```bash
-git clone <(https://github.com/joacomartineeez/desafiohdi_joaquinmartinez.git>
-cd desafio_HDI
+git clone https://github.com/joacomartineeez/desafiohdi_joaquinmartinez.git
+cd desafiohdi_joaquinmartinez
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python main.py
 ```
-
+> Nota: Ajusta el nombre de la carpeta al hacer cd, según el nombre real que se haya creado al clonar o descomprimir.
 ---
 ## 9. Requisitos
 - pandas
