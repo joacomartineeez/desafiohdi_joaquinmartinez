@@ -289,4 +289,4 @@ scores = pd.DataFrame({
 
 <img src="../outputs/figures/metricasfinales.png" alt="Tree SHAP" width="600"/>
 
-<img src="outputs/figures/matrizfinal.png" alt="Matriz de Confusión CatBoost afinado" width="600"/>
+<img src="../outputs/figures/matrizfinal.png" alt="Matriz de Confusión CatBoost afinado" width="600"/>
